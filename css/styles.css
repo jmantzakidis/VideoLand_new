@@ -1,0 +1,85 @@
+body{
+    background-color: #A9A9A9;
+}
+.img{
+    border: 2px solid #ffd700;
+}
+.image-movie-list{
+border:2px solid #8B0000;
+width:200px;
+height:300px;
+}
+.paragraph{
+border-style: outset;
+}
+.carousel {
+    background:#800000;
+}
+.carousel-item {
+  height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: +1;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   height: 400px; 
+    width: 100%;
+  }
+  
+.ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.li{
+  display:inline;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+hr.solid {
+  border-top: 3px solid black;
+}
+.imgabout{
+  border: 2px solid #ffd700;
+  width:200px;
+height:300px;
+}
+.cimg{
+  border: 2px solid #ffd700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button2{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
